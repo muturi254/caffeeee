@@ -9,7 +9,7 @@ services:
     name: caffe
     env: ruby
     plan: free
-    buildCommand: "./bin/render_buld.sh"
+    buildCommand: "./bin/render_build.sh"
     startCommand: "rails s"
     envVars:
       - key: DATABASE_URL
