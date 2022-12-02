@@ -34,3 +34,5 @@ group :development do
   gem 'byebug', '~> 11.1', '>= 11.1.3'
 end
 
+
+gem 'pg', '~> 1.4', '>= 1.4.5'
