@@ -8,6 +8,7 @@ services:
   - type: web
     name: caffe
     env: ruby
+    plan: free
     buildCommand: "./bin.render_buld.sh"
     startCommand: "rails s"
     envVars:
