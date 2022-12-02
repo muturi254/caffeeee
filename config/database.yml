@@ -25,6 +25,7 @@
 #   database: db/production.sqlite3
 
 production:
-  adapter: postgres
+  adapter: postgresql
+  database: cafe
   pool: 4
   timeout: 5000
