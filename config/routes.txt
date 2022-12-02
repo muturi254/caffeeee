@@ -1,0 +1,6 @@
+rest routing
+
+C -> CREATE -> POST          -> /coffee/ or coffee/new/
+R -> READ   -> GET           -> /coffee
+U -> UPDATE -> PATCH, PUT    -> /coffee/:id/
+D -> DELETE -> DELETE        -> /coffee/:id
